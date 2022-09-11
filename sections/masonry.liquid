@@ -1,23 +1,54 @@
-<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
-    <div class="grid-item"></div>
-    <div class="grid-item"></div>
-  </div>
 
+<!-- RENDERING THE CODE -->
+<!-- Masonry grid Title -->
+<h2> {{ section.settings.masonry-grid }} </h2>
+<!-- Block Object - Masonry Grid -->
+    <!-- Image -->
+
+    <!-- Text -->
+    <!-- URL -->
+
+
+
+    <!-- CODE -->
   {% schema %}
   {
-   "name": "masonry-grid",
+   "name": "masonry-grid", //this name will shown for the added section
   "settings": [
     {
+        "type": "text", //we can add some text after clicking on the name "masonry-grid" and the text will display on the page after rendering
         "id": "masonry-grid",
-       "type": "image_picker",
-       "label": "Add a masonry-grid"
+       "label": "Add a masonry-grid" //label will be shown above the input text box after clicking on the name "masonry-grid"
     }
   ],
-  "template": ["index"],
-  "preset": [
+  "templates": ["index"],
+  "presets": [
         {
             "name": "Masonry grid",
             "category": "Masonry"
+        }
+    ],
+    "blocks":[
+        {
+            "name": "Masonry-Image", //This name will be shown for this block
+            "type": "masonry-image", 
+            "settings": [ //multiple nestes blocks below
+                {
+                    "type": "image_picker", //blocks will be images here
+                    "id": "image", 
+                    "label": "Image" //This label will be displayed after click on the "Masonry-Image" block to add image
+                },
+                {
+                    "type": "text", //blocks will be text here
+                    "id": "text", 
+                    "label": "Text" 
+                },
+                {
+                    "type": "url", //blocks will be url here
+                    "id": "url", 
+                    "label": "URL" 
+                }
+            ]
         }
     ]
     

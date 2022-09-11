@@ -1,58 +1,5 @@
 {
   "sections": {
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -208,6 +155,123 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166290460317bb4a02": {
+      "type": "masonry",
+      "blocks": {
+        "c5c42d43-9b33-4e3b-86e5-95abe3756672": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.jpg",
+            "text": "Nature",
+            "url": "https:\/\/www.youtube.com"
+          }
+        },
+        "4b2072d0-856e-4e99-8d6b-f6312d05ee18": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.jpg",
+            "text": "Art",
+            "url": "https:\/\/www.youtube.com"
+          }
+        },
+        "cd73d57f-4779-407d-a8bc-c3d5f262245e": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.jpg",
+            "text": "Moonlight",
+            "url": "https:\/\/www.youtube.com"
+          }
+        },
+        "3dbfeb5e-a76f-4bcd-b97c-2b84fd45887b": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.jpg",
+            "text": "Mid-night",
+            "url": "https:\/\/www.youtube.com"
+          }
+        },
+        "a5014bc6-b1c7-4372-8876-303a648491a6": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.jpg",
+            "text": "Painting",
+            "url": "https:\/\/www.youtube.com"
+          }
+        },
+        "e01dd691-4789-4a23-a138-d02182542596": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "text": "Beauty of Art",
+            "url": "https:\/\/www.youtube.com"
+          }
+        }
+      },
+      "block_order": [
+        "c5c42d43-9b33-4e3b-86e5-95abe3756672",
+        "4b2072d0-856e-4e99-8d6b-f6312d05ee18",
+        "cd73d57f-4779-407d-a8bc-c3d5f262245e",
+        "3dbfeb5e-a76f-4bcd-b97c-2b84fd45887b",
+        "a5014bc6-b1c7-4372-8876-303a648491a6",
+        "e01dd691-4789-4a23-a138-d02182542596"
+      ],
+      "settings": {
+        "masonry-grid": ""
+      }
     }
   },
   "order": [
@@ -216,6 +280,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "166290460317bb4a02"
   ]
 }
